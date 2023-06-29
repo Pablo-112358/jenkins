@@ -1,4 +1,4 @@
-FROM php:apache-buster
+FROM php:8.1.21RC1-zts-bullseye
 LABEL maintainer="Jaivic"
 
 RUN a2enmod rewrite
